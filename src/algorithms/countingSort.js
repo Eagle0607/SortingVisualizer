@@ -19,7 +19,7 @@ const countingSort = async (array, setArray, stopSortingRef) => {
       await delay(200);
 
       arr[index].value = i;
-      arr[index].height = i * 20;
+      arr[index].height = i * 17;
       arr[index].swapping = false;
       arr[index].sorted = true;
       setArray([...arr]);
